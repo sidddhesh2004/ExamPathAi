@@ -11,6 +11,13 @@
     "start": "serve -s dist -p $PORT"
   },
   "dependencies": {
+    "axios": "^1.7.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.1",
+    "serve": "^14.2.3"  // <-- ENSURE THIS LINE IS HERE
+  },
+  "dependencies": {
     "axios": "^1.12.2",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
